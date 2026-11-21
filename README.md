@@ -10,8 +10,6 @@ Sistem Akademik PHP OOP yang sudah memakai **Composer autoload (PSR-4)** dan lay
 
 </div>
 
----
-
 ## 📖 Deskripsi
 
 `composer.json` memetakan namespace `App\` ke folder `app/`. File `vendor/autoload.php` dimuat di `index.php`, sehingga class dimuat otomatis tanpa `require` manual. Routing memakai parameter `?hal=`.
