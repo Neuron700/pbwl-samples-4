@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧩 Sistem Akademik — Project 4
+# 🧩 Sistem Akademik Project 4
 
 **Project 4 · PHP OOP + Composer**
 
@@ -17,14 +17,14 @@ Sistem Akademik PHP OOP yang sudah memakai **Composer autoload (PSR-4)** dan lay
 ## 📸 Tampilan
 
 <table>
-  <tr>
-    <td width="50%"><img src="docs/screenshots/01-dashboard.png" alt="Dashboard"><br><sub>Dashboard</sub></td>
-    <td width="50%"><img src="docs/screenshots/02-mahasiswa.png" alt="Daftar Mahasiswa"><br><sub>Daftar Mahasiswa</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="docs/screenshots/03-form-input.png" alt="Form Input"><br><sub>Form Input</sub></td>
-    <td width="50%"><img src="docs/screenshots/04-dosen.png" alt="Daftar Dosen"><br><sub>Daftar Dosen</sub></td>
-  </tr>
+ <tr>
+ <td width="50%"><img src="docs/screenshots/01-dashboard.png" alt="Dashboard"><br><sub>Dashboard</sub></td>
+ <td width="50%"><img src="docs/screenshots/02-mahasiswa.png" alt="Daftar Mahasiswa"><br><sub>Daftar Mahasiswa</sub></td>
+ </tr>
+ <tr>
+ <td width="50%"><img src="docs/screenshots/03-form-input.png" alt="Form Input"><br><sub>Form Input</sub></td>
+ <td width="50%"><img src="docs/screenshots/04-dosen.png" alt="Daftar Dosen"><br><sub>Daftar Dosen</sub></td>
+ </tr>
 </table>
 
 ## ✨ Fitur
@@ -50,12 +50,12 @@ Sistem Akademik PHP OOP yang sudah memakai **Composer autoload (PSR-4)** dan lay
 
 ```mermaid
 flowchart TD
-    A[Browser] --> B[index.php?hal=mhsw]
-    B --> C[vendor/autoload.php]
-    B --> D[mhsw.php]
-    D --> E[App\Mahasiswa]
-    E --> F[App\Koneksi - PDO]
-    F --> G[(pbwl_samples_4)]
+ A[Browser] --> B[index.php?hal=mhsw]
+ B --> C[vendor/autoload.php]
+ B --> D[mhsw.php]
+ D --> E[App\Mahasiswa]
+ E --> F[App\Koneksi - PDO]
+ F --> G[(pbwl_samples_4)]
 ```
 
 ## 🚀 Instalasi
@@ -71,14 +71,14 @@ Jika `vendor/` hilang: `composer install`.
 ```
 pbwl-samples-4/
 ├── app/
-│   ├── Mahasiswa.php
-│   └── Koneksi.php
+│ ├── Mahasiswa.php
+│ └── Koneksi.php
 ├── inc/
 ├── layouts/
-├── vendor/              # autoload Composer
+├── vendor/ # autoload Composer
 ├── composer.json
 ├── database.sql
-├── index.php            # router ?hal=
+├── index.php # router ?hal=
 ├── mhsw*.php, dosen.php, matkul.php
 └── README.md
 ```
